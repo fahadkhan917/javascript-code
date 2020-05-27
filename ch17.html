@@ -1,0 +1,42 @@
+<script>
+
+
+//removing,inserting and extracting elements
+
+
+//shift remove a first element in array
+
+var a=["khan","asad","umair"];
+a.shift();
+document.write(a);
+
+
+// unshift add a element in a first
+document.write("<br>");
+var b=["fahad","khan"];
+b.unshift("muhammad");
+document.write(b);
+
+//splice method
+document.write("<br>");
+var city=["karachi","lahore","kpk"];
+city.splice(1,0,"hyderabad");
+//.splice(add a number of index where your string add,delete how many index in array,"string add")
+document.write(city);
+
+//slice method array
+document.write("<br>");
+var citys=["karachi","lahore","kpk","quetta"];
+var fa=citys.slice(1,4);
+//slice (start number or end number);
+document.write(fa);
+
+
+//concat b/w two array
+document.write("<br>");
+var f=["hahf","nafha","hjfah"];
+var add=fa.concat(f);
+document.write(add);
+
+
+</script>
